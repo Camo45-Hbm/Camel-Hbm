@@ -1,6 +1,6 @@
 td /* Toutes les cellules des tableaux... */
 {
-border: 2px solid rgba(0, 0, 0, 0.276); /* ... auront une bordure de 1px */
+border: 1px solid rgba(0, 0, 0, 0.276); /* ... auront une bordure de 1px */
 }
 table
 {
@@ -8,7 +8,7 @@ border-collapse: separate; /* Les bordures du tableau seront collées (plus joli
 }
 td /* Toutes les cellules des tableaux... */
 {
-border: 1px solid rgba(49, 196, 159, 0.893); /* ... auront une bordure de 1px */
+border: 2px solid rgba(49, 196, 159, 0.893); /* ... auront une bordure de 1px */
 }
 table
 {
@@ -16,7 +16,7 @@ border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli
 }
 td
 {
-border: 1px solid rgba(0, 0, 0, 0.66);
+border: 1px solid blues;
 }
 table
 {
@@ -28,8 +28,8 @@ border: 1px solid black;
 }
 table{
     border-collapse: collapse;
-    border-spacing: 8px;
+    border-spacing: 5px;
 }
 td, th{
-    padding: 8px;
+    padding: 5px;
 }
